@@ -2,9 +2,9 @@
 apt install wget -y
 clear
 
-echo "ᴍᴀᴋᴇᴅ ʙʏ - 𝖘𝖔𝖑𝖔𝖟𝖎𝖕"
+echo "MADE BY SOLOZIP"
 
-echo Create Your Own Free VPS Hosting!
+echo Create your own free VPS Hosting!
 
 read -p "Are you sure you want to continue? Agree to create or not? (y/n): " -n 1 -r
 echo
@@ -24,26 +24,26 @@ echo "Installation successful"
 clear
 
 echo "Install the necessary files"
-wget https://raw.githubusercontent.com/SolozipDev/Vps-Bot-Files-V3/refs/heads/main/Dockerfile
-wget https://raw.githubusercontent.com/SolozipDev/Vps-Bot-Files-V3/refs/heads/main/bot.py
-wget https://raw.githubusercontent.com/SolozipDev/Vps-Bot-Files-V3/refs/heads/main/anti.sh
-wget https://raw.githubusercontent.com/SolozipDev/Vps-Bot-Files-V3/refs/heads/main/requirements.txt
+wget https://raw.githubusercontent.com/SolozipDev/Vps-Bot-Files/refs/heads/main/Dockerfile
+wget https://raw.githubusercontent.com/SolozipDev/Vps-Bot-Files/refs/heads/main/anti.sh
+wget https://raw.githubusercontent.com/SolozipDev/Vps-Bot-Files/refs/heads/main/bot.py
+wget https://raw.githubusercontent.com/SolozipDev/Vps-Bot-Files/refs/heads/main/requirements.txt
 echo "Installation successful"
 
 clear
 
-echo "Install the downloaded files"
-docker build -t ubuntu-22.04-with-tmate -f Dockerfile . && pip install docker discord
+echo "Install the newly loaded files"
+docker build -t ubuntu-22.04-with-tmate -f Dockerfile1 . && pip install docker discord
 
 clear
 
-echo "Enter discord bot token"
+echo "Enter the discord bot token"
 read -r TOKEN
-echo "Updating bot.py with provided Discord bot token..."
+echo "Updating main.py with token bot Discord is provided..."
 sed -i "s/TOKEN = ''/TOKEN = '$TOKEN'/" bot.py
 
 clear
 
-echo "Let's start botting"
-echo "python3 bot.py"
-python3 bot.py
+echo "Let's start the bot"
+echo "python3 main.py"
+python3 main.py
