@@ -40,7 +40,7 @@ echo "Installation successful"
 clear
 
 echo "Install the newly loaded files"
-docker build -t ubuntu-22.04-with-tmate -f Dockerfile1 . && pip install docker discord
+docker build -t ubuntu-22.04-with-tmate -f Dockerfile . && pip install docker discord
 
 clear
 
