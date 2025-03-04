@@ -24,10 +24,10 @@ echo "Installation successful"
 clear
 
 echo "Install the necessary files"
-wget https://raw.githubusercontent.com/SolozipDev/Vps-Bot-Files/refs/heads/main/Dockerfile
-wget https://raw.githubusercontent.com/SolozipDev/Vps-Bot-Files/refs/heads/main/anti.sh
-wget https://raw.githubusercontent.com/SolozipDev/Vps-Bot-Files/refs/heads/main/bot.py
-wget https://raw.githubusercontent.com/SolozipDev/Vps-Bot-Files/refs/heads/main/requirements.txt
+wget https://raw.githubusercontent.com/SolozipDev/Vps-Bot-Files-V3/refs/heads/main/Dockerfile
+wget https://raw.githubusercontent.com/SolozipDev/Vps-Bot-Files-V3/refs/heads/main/anti.sh
+wget https://raw.githubusercontent.com/SolozipDev/Vps-Bot-Files-V3/refs/heads/main/bot.py
+wget https://raw.githubusercontent.com/SolozipDev/Vps-Bot-Files-V3/refs/heads/main/requirements.txt
 echo "Installation successful"
 
 clear
